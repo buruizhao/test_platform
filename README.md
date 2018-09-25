@@ -9,8 +9,5 @@
 
 ~~~
 python3 manage.py runserver //进入manage.py 平级目录
-<<<<<<< HEAD
+
 ~~~
-=======
-~~~
->>>>>>> 82ee27ecee393c3f13a4f4e607c82a012710a019
