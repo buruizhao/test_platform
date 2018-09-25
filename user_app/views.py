@@ -18,3 +18,5 @@ def login_action(request):
             return render(request,'login_action.html')
         if username != 'admin' or password != 'admin':
             return render(request, 'index.html', {"error": "账号或密码错误，请重新输入！"})
+    else:
+        return render(request, 'index.html')
