@@ -31,3 +31,7 @@ INSTALLED_APPS = [
 
 6. 在test_platform/urls 下面添加路由，在APP下面新建templates，存放html文件，views编写逻辑
 7. 未使用models.py ，实现假登录业务
+8. 启动项目
+~~~
+python3 manage.py runserver
+~~~
