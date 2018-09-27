@@ -13,8 +13,10 @@ MIDDLEWARE = [
 ~~~
 
 2. 用户名和密码传入默认参数，默认参数为空
+~~~
 username = request.POST.get("username")
 username = request.POST.get("username", "")
+~~~
 
 3. 创建超级管理员账户
 ~~~
@@ -26,7 +28,7 @@ python3 manage.py createsuperuser
 python3 manage.py migrate
 ~~~
 
-5. 浏览器访问后台 120.0.0.1:8000/admin
+5. 浏览器访问后台 127.0.0.1:8000/admin
 
 6. views.py 导入auth
 ~~~
@@ -41,4 +43,6 @@ if user is not None:
 ~~~
 
 7. 使用bootstarp优化登录页面，注意点:css的问题,查看原网页使用的css
+~~~
 <link href="https://v3.bootcss.com/examples/signin/signin.css" rel="stylesheet">
+~~~
