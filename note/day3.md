@@ -11,7 +11,7 @@
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [] //原先
+         #'DIRS': [] //原先
         'DIRS': [os.path.join(BASE_DIR, 'templates')],//修改后
         'APP_DIRS': True,
         'OPTIONS': {
